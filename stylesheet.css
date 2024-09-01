@@ -17,6 +17,10 @@ body {
   padding: 10px;
     color: white;
 }
+.bodyText {
+  font-family: "beatrix";
+    color: white;
+}
 .center {
     width: 80%;
     margin-left: 10%;
