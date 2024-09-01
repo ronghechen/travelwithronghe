@@ -40,6 +40,7 @@ body {
   padding: 1.3rem;
   display: flex;
   overflow: hidden;
+    justify-content: center;
 }
 
 
