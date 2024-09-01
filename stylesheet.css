@@ -21,3 +21,8 @@ body {
     width: 80%;
     margin-left: 10%;
 }
+.pic {
+  width: 250px;
+  height: 300px;
+  margin-bottom: 2%;
+}
