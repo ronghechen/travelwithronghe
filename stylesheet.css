@@ -36,6 +36,13 @@ body {
   font-size: 1.2rem;
 }
 
+.header {
+  padding: 1.3rem;
+  display: flex;
+  overflow: hidden;
+}
+
+
 .nav-bar a.icon {
   background-color: transparent;
   display: block;
