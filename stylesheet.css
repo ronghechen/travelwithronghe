@@ -26,9 +26,7 @@ body {
     margin-left: 10%;
     display: flex;
 }
-span {
-    padding: 10px;
-}
+
 .pic {
     padding: 1.5rem;
   width: 50%;
