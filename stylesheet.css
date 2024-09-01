@@ -22,9 +22,9 @@ body {
     margin-left: 10%;
 }
 .pic {
-  width: 250px;
-  height: 300px;
-  margin-bottom: 2%;
+    padding: 1.5rem;
+  width: 50%;
+  height: 50%;
 }
 
 .nav-bar a {
