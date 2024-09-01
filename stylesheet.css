@@ -40,7 +40,9 @@ body {
 
 .nav-bar a {
   color: white;
-  padding: 1.5rem;
+    background-color: transparent;
+  padding: 0.5rem; /* Adjust as needed */
+  margin: 0; /* Remove margin if necessary */
   cursor: pointer;
   font-family: "beatrix";
   text-decoration: none;
