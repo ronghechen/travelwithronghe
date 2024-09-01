@@ -17,3 +17,7 @@ body {
   padding: 10px;
     color: white;
 }
+.center {
+    width: 80%;
+    margin-left: 10%;
+}
