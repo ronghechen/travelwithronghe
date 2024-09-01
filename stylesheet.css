@@ -41,7 +41,7 @@ body {
 .nav-bar a {
   color: white;
     background-color: transparent;
-  padding: 0.5rem; /* Adjust as needed */
+  padding: 1.5rem; /* Adjust as needed */
   margin: 0; /* Remove margin if necessary */
   cursor: pointer;
   font-family: "beatrix";
