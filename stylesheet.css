@@ -35,6 +35,10 @@ span {
   height: 50%;
 }
 
+.textBox {
+    vertical-align: middle;
+}
+
 .nav-bar a {
   color: white;
   padding: 1.5rem;
@@ -49,6 +53,7 @@ span {
   display: flex;
   overflow: hidden;
     justify-content: center;
+    margin-bottom: 5%
 }
 
 
