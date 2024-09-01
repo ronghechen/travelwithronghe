@@ -26,3 +26,17 @@ body {
   height: 300px;
   margin-bottom: 2%;
 }
+
+.nav-bar a {
+  color: white;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-family: "beatrix";
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-bar a.icon {
+  background-color: transparent;
+  display: block;
+}
