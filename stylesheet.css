@@ -62,3 +62,32 @@ span {
   background-color: transparent;
   display: block;
 }
+
+.footer-container{
+  background-color: transparent;
+  position: relative;
+  bottom: 0px;
+  height: 100px;
+  margin-top: -100px;
+  width: 100%;
+  color: white;
+  clear: both;
+}
+
+.footer {
+  background-color: transparent;
+  height: 10vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: white;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-family: "beatrix";
+  text-decoration: none;
+  font-size: 1.2rem;
+}
