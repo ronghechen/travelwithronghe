@@ -72,6 +72,12 @@ body {
   clear: both;
 }
 
+.middle {
+    margin: 0 auto;
+  min-height: 100vh;
+  padding-bottom: 10vh;
+}
+
 .footer {
   background-color: transparent;
   height: 10vh;
