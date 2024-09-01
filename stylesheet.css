@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "beatrix";
+    src: url("CSBeatrix-Regular_demo-BF66c5560bd4feb.otf") format("truetype");
+  }
+
+.title {
+  font-family: "beatrix";
+  vertical-align: middle;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
