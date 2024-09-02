@@ -39,8 +39,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 40vh; /* Adjust the height as needed */
+  height: 40vh; 
 }
+
+.rowContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rowContainer a {
+  margin-right: 10px; /* Adjust the spacing between the back button and the title */
+}
+
 
 .textBox {
     display: flex;
