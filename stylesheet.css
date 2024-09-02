@@ -38,14 +38,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh; /* Adjust the height as needed */
+  height: 40vh; /* Adjust the height as needed */
 }
 
 .textBox {
     display: flex;
   justify-content: center;
   align-items: center;
-  height: 20%; /* Adjust the height as needed */
+  height: 30%; /* Adjust the height as needed */
 }
 
 .nav-bar a {
