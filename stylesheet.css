@@ -150,6 +150,23 @@ body {
   top: 0;
 }
 
+ .row {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+  }
+
+.imgWrapper {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .dot {
   cursor: pointer;
   height: 15px;
