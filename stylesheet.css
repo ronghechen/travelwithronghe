@@ -19,7 +19,6 @@ body {
 }
 .bodyText {
   font-family: "beatrix";
-    text-align: center;
     color: white;
 }
 .center {
@@ -46,7 +45,7 @@ body {
     display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%; /* Adjust the height as needed */
+  height: 20%; /* Adjust the height as needed */
 }
 
 .nav-bar a {
