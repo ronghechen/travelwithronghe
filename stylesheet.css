@@ -155,7 +155,7 @@ body {
     margin-bottom: 5%;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-bottom: 5vh;
     padding-top: 5vh;
   }
