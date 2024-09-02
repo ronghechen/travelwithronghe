@@ -177,6 +177,10 @@ body {
   margin-right: 5%;
 }
 
+.imgWrapper a {
+  text-decoration: none;
+}
+
 .dot {
   cursor: pointer;
   height: 15px;
