@@ -45,6 +45,7 @@ body {
 .rowContainer {
   display: flex;
   align-items: center;
+    margin-bottom: 20px;
 }
 
 .rowContainer a {
