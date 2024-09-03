@@ -1,4 +1,4 @@
-let slideIndex = 1;
+/*let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -23,4 +23,27 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+}*/
+let slideIndex = 0;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  let slides = document.getElementsByClassName("slides");
+
+  if (n >= slides.length) {
+    slideIndex = 0;
+  } 
+  if (n < 0) {
+    slideIndex = slides.length - 1;
+  }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slides[slideIndex].style.display = "block";  
 }
