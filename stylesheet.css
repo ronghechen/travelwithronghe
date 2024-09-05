@@ -258,7 +258,8 @@ a {
   }
 
   .centeredImg {
-    width: 80%; /* Make the images larger and more readable on mobile */
+    margin-left:5%
+    width: 50%;
   }
 
   .imgWrapper {
