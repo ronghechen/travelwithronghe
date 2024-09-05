@@ -58,7 +58,8 @@ img {
   flex-direction: column;
   justify-content: center;
     text-align: center;
-  height: 40vh; 
+  height: 40vh;
+    margin-bottom: 10vh;
 }
 
 h2.bodyText {
