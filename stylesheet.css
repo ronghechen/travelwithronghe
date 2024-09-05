@@ -57,8 +57,13 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-    /*text-align: center;*/
+    text-align: center;
   height: 40vh; 
+}
+
+h2.bodyText {
+  font-size: 2rem; /* Adjust the font size as needed */
+  margin: 0;
 }
 
 .rowContainer {
@@ -75,8 +80,12 @@ img {
 .textBox {
     display: flex;
       height: 30%; /* Adjust the height as needed */
+    text-align: center;
     /*justify-content: center*/
     padding: 1rem;
+}
+p.bodyText {
+  font-size: 1rem; /* You can adjust the font size here for mobile */
 }
 
 .nav-bar a {
