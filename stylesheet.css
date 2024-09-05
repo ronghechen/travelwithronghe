@@ -252,4 +252,16 @@ a {
   .textBox {
     padding: 1rem;
   }
+
+    .row {
+    flex-direction: column;
+  }
+
+  .centeredImg {
+    width: 80%; /* Make the images larger and more readable on mobile */
+  }
+
+  .imgWrapper {
+    margin: 1rem 0; /* Add more space between images */
+  }
 }
