@@ -29,7 +29,9 @@ body {
 }
 .center {
     width: 80%;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
+    margin: 0 auto;
+    align-items: center;
     display: flex;
     margin-bottom: 5%
     flex-direction: column;
@@ -43,14 +45,20 @@ body {
 
 .pic {
     padding: 1.5rem;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+    text-align: center;
   height: 40vh; 
 }
 
@@ -234,7 +242,20 @@ a {
   from {opacity: .4} 
   to {opacity: 1}
 }
+@media (min-width: 768px) {
+    .center {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
+  .pic {
+    width: 50%;
+  }
+
+  .container {
+    width: 50%;
+  }
+}
 @media (max-width: 768px) {
   .center {
     width: 100%;
@@ -252,6 +273,7 @@ a {
   
   .textBox {
     padding: 1rem;
+      width: 100%;
   }
 
     .row {
