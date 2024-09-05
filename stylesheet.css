@@ -46,12 +46,11 @@ body {
 .pic {
     padding: 1.5rem;
   width: 100%;
-  height: auto;
 }
 
-.responsive-img {
-  max-width: 100%;
-  height: auto;
+img {
+  width: 100%; /* Make the image responsive by default */
+  height: auto; /* Maintain the aspect ratio */
 }
 
 .container {
@@ -249,6 +248,7 @@ a {
 
   .pic {
     width: 50%;
+    padding: 1.5rem;
   }
 
   .container {
