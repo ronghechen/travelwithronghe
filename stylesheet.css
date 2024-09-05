@@ -70,6 +70,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 30%; /* Adjust the height as needed */
+    padding: 1rem;
 }
 
 .nav-bar a {
@@ -255,6 +256,12 @@ a {
 
     .row {
     flex-direction: column;
+  }
+
+    .textBox {
+    flex-direction: column;
+    height: auto; /* Let the content naturally adjust its height */
+    padding: 2rem 1rem; /* Add more padding for readability */
   }
 
   .centeredImg {
