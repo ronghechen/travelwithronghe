@@ -76,7 +76,6 @@ body {
 .textBox {
     display: flex;
   justify-content: center;
-  align-items: center;
   height: 30%; /* Adjust the height as needed */
     padding: 1rem;
 }
