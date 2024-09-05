@@ -74,7 +74,7 @@ img {
 
 .textBox {
     display: flex;
-  height: 30%; /* Adjust the height as needed */
+      height: 30%; /* Adjust the height as needed */
     /*justify-content: center*/
     padding: 1rem;
 }
