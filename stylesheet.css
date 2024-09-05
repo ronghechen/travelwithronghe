@@ -252,7 +252,7 @@ a {
   }
 
   .container {
-    width: 50%;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
