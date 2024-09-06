@@ -24,11 +24,11 @@ body {
   flex-basis: calc(50% - 2rem); /* For three images per row, adjust based on padding */
 }
 
-/*.blogImgWrapper img {
+.blogImgWrapper img {
   width: 500px; 
   height: 500px; 
   object-fit: cover; 
-}*/
+}
 
 .bodyText {
   font-family: "beatrix";
@@ -330,9 +330,9 @@ a {
     margin: 1rem 0; /* Add more space between images */
   }
 
-   /* .blogImgWrapper img {
+    .blogImgWrapper img {
       width: 250px; 
       height: 250px;
       object-fit: cover; 
-    }*/
+    }
 }
