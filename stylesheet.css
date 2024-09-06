@@ -73,6 +73,12 @@ h2.bodyText {
     margin-bottom: 20px;
 }
 
+.blogHeading {
+    font-family: "beatrix";
+    color: white;
+     margin-bottom: 20px;
+}
+
 .rowContainer a {
   margin-right: 10px; /* Adjust the spacing between the back button and the title */
 }
