@@ -18,6 +18,12 @@ body {
     color: white;
 }
 
+.blogImgWrapper {
+    display: block;
+  margin: 1rem; /* Adjust to ensure consistent spacing */
+  flex-basis: calc(50% - 2rem); /* For three images per row, adjust based on padding */
+}
+
 .bodyText {
   font-family: "beatrix";
     color: white;
@@ -277,6 +283,11 @@ a {
     width: 100%;
    /* margin-left: 0;*/
   }
+
+    .blogImgWrapper {
+        flex-basis: 100%; /* Full width on smaller screens */
+        margin: 1rem 0; /* Add more vertical space between images on mobile */
+    }
   
   .pic {
     width: 100%;
