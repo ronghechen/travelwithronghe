@@ -330,6 +330,11 @@ a {
     margin: 1rem 0; /* Add more space between images */
   }
 
+     .rowContainer {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left (or adjust as needed) */
+  }
+
     .blogImgWrapper img {
       width: 350px; 
       height: 350px;
