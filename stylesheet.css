@@ -25,7 +25,7 @@ body {
 }
 
 .blogImgWrapper img {
-  width: 100%; /* Make the image fill the container width */
+  width: 500px; /* Make the image fill the container width */
   height: 500px; /* Set a fixed height for all images */
   object-fit: cover; /* This will ensure the image covers the container without stretching */
 }
@@ -331,7 +331,7 @@ a {
   }
 
     .blogImgWrapper img {
-      width: 100%; /* Make the image fill the container width */
+      width: 250px; /* Make the image fill the container width */
       height: 250px; /* Set a fixed height for all images */
       object-fit: cover; /* This will ensure the image covers the container without stretching */
     }
