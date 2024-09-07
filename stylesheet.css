@@ -168,6 +168,12 @@ p.bodyText {
   font-size: 1.2rem;
 }
 
+.responsive-video {
+  width: 100%;
+  height: auto;
+  max-width: 450px; /* You can adjust this to control the maximum size */
+}
+
 .slides-container {
   max-width: 1000px;
   position: relative;
@@ -289,6 +295,13 @@ a {
     width: 100%;
    /* margin-left: 0;*/
   }
+
+    .responsive-video {
+      width: 100%;
+      height: auto;
+      max-width: 300px; /* You can adjust this to control the maximum size */
+    }
+
 
     .blogImgWrapper {
         flex-basis: 100%; /* Full width on smaller screens */
