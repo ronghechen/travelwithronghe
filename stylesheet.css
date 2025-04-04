@@ -190,6 +190,7 @@ a {
 
 .navButton {
     vertical-align: bottom;
+    float: right;
 }
 
 .prev, .next {
