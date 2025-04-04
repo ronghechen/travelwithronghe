@@ -184,6 +184,14 @@ p.bodyText {
   display: none;
 }
 
+a {
+  color: white;
+}
+
+.navButton {
+    vertical-align: bottom;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
