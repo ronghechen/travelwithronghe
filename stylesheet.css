@@ -191,6 +191,7 @@ a {
 .navButton {
     vertical-align: bottom;
     float: right;
+    margin-top: 5vh;
 }
 
 .prev, .next {
