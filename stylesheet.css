@@ -193,6 +193,11 @@ a {
     margin-top: auto;
 }
 
+.backButton {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
